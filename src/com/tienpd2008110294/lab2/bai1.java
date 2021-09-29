@@ -4,7 +4,9 @@
 *author: tien
 */
 package com.tienpd2008110294.lab2;
+
 import java.util.Scanner;
+
 public class bai1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -12,12 +14,13 @@ public class bai1 {
         int a = in.nextInt();
         System.out.print("Nhập vào hệ số b: ");
         int b = in.nextInt();
-        if(a==0)
-            if(b==0)
+        System.out.printf("PT có dạng %dx + %d = 0\n", a, b);
+        if (a == 0)
+            if (b == 0)
                 System.out.println("PT có vô số nghiệm.");
             else
                 System.out.println("PT vô nghiệm.");
         else
-            System.out.println("PT có nghiệm duy nhất: x = "+(-b/a));
+            System.out.println("PT có nghiệm duy nhất: x = " + (-b / a));
     }
 }
