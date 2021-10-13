@@ -26,7 +26,7 @@ public class xee {
         dungtichxang = dtx;
     }
 
-    Xe(){
+    xee() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Hãy Tên của chủ xe: ");
         ten = sc.next();
@@ -39,11 +39,11 @@ public class xee {
         System.out.print("Hãy nhập dung tích xăng của xe: ");
         dungtichxang = sc.next();
 
-        System.out.println("---------------------");    
-        System.out.println("Tên chủ xe là: "+ten);
-        System.out.println("Hãng sản xuất: "+hsx);
-        System.out.println("Dòng xe là: "+dong);
-        System.out.println("Số hiệu giấy phép là: "+giayphep);
-        System.out.println("Dung tích xăng là: "+dungtichxang);
+        System.out.println("---------------------");
+        System.out.println("Tên chủ xe là: " + ten);
+        System.out.println("Hãng sản xuất: " + hsx);
+        System.out.println("Dòng xe là: " + dong);
+        System.out.println("Số hiệu giấy phép là: " + giayphep);
+        System.out.println("Dung tích xăng là: " + dungtichxang);
     }
 }
