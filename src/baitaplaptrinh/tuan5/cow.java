@@ -6,6 +6,8 @@ package baitaplaptrinh.tuan5;
 
 public class cow {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println("hi chào câu ");
+        System.out.println("em ăn com chưa");
+
     }
 }

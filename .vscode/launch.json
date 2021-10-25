@@ -1,0 +1,196 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch account",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.accout.account",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch accounttestdrive",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.accout.accounttestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch tien",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.accout.tien",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch baidautien",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.baidautien",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch java_test",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.java_test",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dogtestdrive",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.tuan5.Dogtestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch cow",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.tuan5.cow",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch maytinhtestdrive",
+            "request": "launch",
+            "mainClass": "baitaplaptrinh.tuan5.maytinhtestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai1",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab1.bai1",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai2",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab1.bai2",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai3",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab1.bai3",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai4",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab1.bai4",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai1(1)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab2.bai1",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai2(1)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab2.bai2",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai3(1)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab2.bai3",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai4(1)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab2.bai4",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai1(2)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab3.bai1",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai2(2)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab3.bai2",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai3(2)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab3.bai3",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountTestDriver",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab4.AccountTestDriver",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch maytinhtestdrive(1)",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab5.maytinhtestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch nhanvientestdrive",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab5.nhanvientestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sachTestDrive",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab5.sachTestDrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch xetestdrive",
+            "request": "launch",
+            "mainClass": "com.tienpd2008110294.lab5.xetestdrive",
+            "projectName": "baitapLab_36b9549a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "hoclaptrinh.Student.Main",
+            "projectName": "baitapLab_36b9549a"
+        }
+    ]
+}
