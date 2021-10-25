@@ -13,6 +13,19 @@ public class Student {
     public int birthday;
     public int age;
 
+    // constructor
+    public Student() {
+        this.name = "tên ";
+        this.code = "mssv";
+        this.birthday = 2000;
+    }
+
+    public Student(String ten, String mssv, int Vbirthday) {
+        this.name = ten;
+        this.code = mssv;
+        this.birthday = Vbirthday;
+    }
+
     // setter
     public void setBirthday(int birthday) {
         this.birthday = birthday;
