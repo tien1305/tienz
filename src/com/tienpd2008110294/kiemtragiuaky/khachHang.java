@@ -4,7 +4,7 @@
 */
 package com.tienpd2008110294.kiemtragiuaky;
 
-public class khachHang {
+public class khachHang extends Nguoi {
     private String tenCongTy;
     private double triGiaHoaDon;
 
