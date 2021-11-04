@@ -6,7 +6,7 @@ package com.tienpd2008110294.kiemtragiuaky;
 
 import java.util.List;
 
-public class danhSachQuanLy {
+public class danhSachQuanLy extends Nguoi {
     private ArrayList<Object> list = new ArrayList<Object>();
 
     public void themNguoi(Object object) {

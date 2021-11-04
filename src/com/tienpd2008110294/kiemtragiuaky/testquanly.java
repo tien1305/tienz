@@ -4,7 +4,7 @@
 */
 package com.tienpd2008110294.kiemtragiuaky;
 
-public class testquanly {
+public class testquanly extends Nguoi {
     public static void main(String[] args) {
         danhSachQuanLy list = new danhSachQuanLy();
         hocVien hocVien = new hocVien("phạm đức tiến", "112/4", 8, 7);
