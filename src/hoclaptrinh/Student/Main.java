@@ -27,5 +27,6 @@ public class Main {
 
         Student studentOne = new Student("tiến", "tre1234", 2345);
         studentOne.showInfo();
+        st
     }
 }

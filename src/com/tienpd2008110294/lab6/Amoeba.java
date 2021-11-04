@@ -2,7 +2,7 @@
 * created date: Oct 25, 2021
 *author: tien
 */
-package com.tienpd2008110294.lab7;
+package com.tienpd2008110294.lab6;
 
 public class Amoeba {
     public class Amoeba {
@@ -29,7 +29,7 @@ public class Amoeba {
         }
 
         protected void playSound() {
-            System.out.println(" Phát ra âm thanh file am thanh có tên" + sound);
+            System.out.println(" Phát ra âm thanh file am thanh có tên" + get);
 
         }
     }

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Constructor",
+      "request": "launch",
+      "mainClass": "hoclaptrinh.Student.Constructor",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
       "name": "Launch SquareTestDrive",
       "request": "launch",
       "mainClass": "com.tienpd2008110294.lab6.SquareTestDrive",

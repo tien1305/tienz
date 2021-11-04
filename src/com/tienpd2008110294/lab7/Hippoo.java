@@ -8,4 +8,13 @@ public class Hippoo extends Animal {
     protected void choi() {
         System.out.println("húc nhau");
     }
+
+    public Hippoo() {
+        System.out.println("makingvghb..");
+    }
+
+    public Hippoo(String n) {
+        super(n);
+
+    }
 }

@@ -1,6 +1,6 @@
 /*
 * created date: Oct 25, 2021
-*author: tien
+* author      : tien
 */
 package com.tienpd2008110294.lab6;
 
