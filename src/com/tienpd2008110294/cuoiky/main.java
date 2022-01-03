@@ -56,6 +56,7 @@ public class main {
         ql.hangHoaCoSan(hh18);
         ql.hangHoaCoSan(hh19);
         ql.hangHoaCoSan(hh20);
+        
         System.out.println("**************************************************");
         System.out.println("*                                                *");
         System.out.println("*            TRUONG DAI HOC GIA DINH             *");
