@@ -97,7 +97,7 @@ public class quanLi {
                 System.out.print("Nhap ma hang hoa : ");
 				in.nextLine();
 				String maHH = in.nextLine();
-				System.out.print("Nhap ten hang hoa (khong dau) : ");
+				System.out.print("Nhap ten hang hoa : ");
 				String tenHH = in.nextLine();
 				System.out.print("Nhap so luong ton kho : ");
 				int soLuongTonKho = in.nextInt();
@@ -126,7 +126,7 @@ public class quanLi {
                 if(x instanceof thucPham){
                     String[] maHH = maHang.split("-",2);
                     System.out.println("\n\n\tNHAP THONG TIN HANG THUC PHAM CAN SUA");
-                    System.out.print("Nhap ten hang hoa (khong dau) : ");
+                    System.out.print("Nhap ten hang hoa : ");
                     String tenHH = in.nextLine();
                     System.out.print("Nhap so luong ton kho : ");
                     int soLuongTonKho = in.nextInt();
@@ -142,7 +142,7 @@ public class quanLi {
                 else if(x instanceof sanhSu){
                     String[] maHH = maHang.split("-",2);
                     System.out.println("\n\n\tNHAP THONG TIN HANG SANH SU CAN SUA"); 
-                    System.out.print("Nhap ten hang hoa(khong dau) : ");
+                    System.out.print("Nhap ten hang hoa : ");
                     String tenHH = in.nextLine();
                     System.out.print("Nhap so luong ton kho : ");
                     int soLuongTonKho = in.nextInt();
@@ -159,7 +159,7 @@ public class quanLi {
                     //HÀNG ĐIỆN TỬ
                     String[] maHH = maHang.split("-",2);
                     System.out.println("\n\n\tNHAP THONG TIN HANG DIEN TU CAN SUA");
-                    System.out.print("Nhap ten hang hoa(khong dau) : ");
+                    System.out.print("Nhap ten hang hoa : ");
                     String tenHH = in.nextLine();
                     System.out.print("Nhap so luong ton kho : ");
                     int soLuongTonKho = in.nextInt();
@@ -446,7 +446,7 @@ public class quanLi {
                         xuatHangDienMayTrucTiep(x);
                     }
                 }
-            }
+            }System.out.println();
         }
         else{
             System.out.println("Vui long nhap lai !");
@@ -481,7 +481,7 @@ public class quanLi {
                         xuatHangDienMayTrucTiep(x);
                     }
                 }
-            }
+            }System.out.println();
         }else {
             System.out.println("Vui long nhap lai !");
             timKiemTheoNgay();

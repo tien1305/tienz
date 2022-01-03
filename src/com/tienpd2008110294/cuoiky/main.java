@@ -58,29 +58,33 @@ public class main {
         ql.hangHoaCoSan(hh20);
         
         System.out.println("**************************************************");
-        System.out.println("*                                                *");
-        System.out.println("*            TRUONG DAI HOC GIA DINH             *");
-        System.out.println("*           Ho va ten: Phạm Đức Tiến             *");
-        System.out.println("*                Mssv: 2008110294                *");
-        System.out.println("*        Giang vien huong dan: Lê Huynh Phước    *");
-        System.out.println("*                                                *");
+        System.out.println("|                                                |");
+        System.out.println("|            TRUONG DAI HOC GIA DINH             |");
+        System.out.println("|           Ho va ten: PHAM DUC TIEN             |");
+        System.out.println("|                Mssv: 2008110294                |");
+        System.out.println("|        Giang vien huong dan: LE HUYNH PHUOC    |");
+        System.out.println("|                                                |");
         System.out.println("**************************************************");
-        while (luachon !=0 ) {
-            System.out.println("==============MENU================");
-            System.out.println("    1.Them hang hoa              ");
-            System.out.println("    2.Sua Hang Hoa               ");
-            System.out.println("    3.Xoa Hang Hoa               ");
-            System.out.println("    4.Tim kiem theo loai         ");
-            System.out.println("    5.Tim kiem theo gia          ");
-            System.out.println("    6.Tim kiem theo ngay         ");
-            System.out.println("    7.Sap xep tang dan theo ngay ");
-            System.out.println("    8.Sap xep giam dan theo ngay ");
-            System.out.println("    9.Sap xep tang dan theo gia  ");
-            System.out.println("    10.Sap xep giam dan theo gia ");
-            System.out.println("    11.Thong ke tung loai hang   ");
-            System.out.println("    12.Tong so luong hang hoa    ");
-            System.out.println("    13.Tong gia hang hoa         ");
-            System.out.println("    Nhap lua chon:               ");
+        do {
+            System.out.println("===================MENU======================");
+            System.out.println("|                                           |");
+            System.out.println("|        1.Them hang hoa                    |");
+            System.out.println("|        2.Sua Hang Hoa                     |");
+            System.out.println("|        3.Xoa Hang Hoa                     |");
+            System.out.println("|        4.Tim kiem theo loai               |");
+            System.out.println("|        5.Tim kiem theo gia                |");
+            System.out.println("|        6.Tim kiem theo ngay               |");
+            System.out.println("|        7.Sap xep tang dan theo ngay       |");
+            System.out.println("|        8.Sap xep giam dan theo ngay       |");
+            System.out.println("|        9.Sap xep tang dan theo gia        |");
+            System.out.println("|        10.Sap xep giam dan theo gia       |");
+            System.out.println("|        11.Thong ke tung loai hang         |");
+            System.out.println("|        12.Tong so luong hang hoa          |");
+            System.out.println("|        13.Tong gia hang hoa               |");
+            System.out.println("|        0. Thoat chuong trinh              |");
+            System.out.println("|                                           |");
+            System.out.println("=============================================");
+            System.out.println("\nNhap lua chon: ");
             luachon = in.nextInt();
             switch(luachon){
                 case 1: ql.themHangHoa();break;
@@ -88,16 +92,17 @@ public class main {
                 case 3: ql.xoaHangHoa();break;
                 case 4: ql.timKiemTheoLoai();break;
                 case 5: ql.timKiemTheoGia();break;
-                case 6: ql.tangDanTheoNgay();break;
+                case 6: ql.timKiemTheoNgay();break;
                 case 7: ql.tangDanTheoNgay();break;
-                case 8: ql.giamDanTheoNgay();break;
+                case 8: ql.giamDanTheoNgay();;break;
                 case 9: ql.tangDanTheoGia();break;
+                case 10:ql.giamDanTheoGia();break;
                 case 11:ql.thongKeTheoLoaiHangHoa();break;
                 case 12:ql.tongSoLuong();break;
                 case 13:ql.tongGiaHangHoa();break;
                 default : break;
             } 
-            
-        }
+        } while (luachon !=0); 
+        
     }
 }
