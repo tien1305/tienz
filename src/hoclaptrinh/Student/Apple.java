@@ -46,6 +46,7 @@ public class Apple {
         // TODO Auto-generated method stub
         return "Apple" + "\n" + "id: " + id + "\n" + "mass: " + mass + "\n" + "colour: " + colour;
     }
+    toString
 
     public void show() {
         System.out.println("id: " + this.id);

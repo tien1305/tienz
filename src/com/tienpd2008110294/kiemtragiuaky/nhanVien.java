@@ -19,7 +19,7 @@ public abstract class nhanVien extends Nguoi {
         return super.toString() + " " + tinhLuong() + " VND";
     }
 
-    NhanVien( String hoTen,String diaChi,float heSoLuong){
+    NhanVien ( String hoTen,String diaChi,float heSoLuong){
         super(hoTen,diaChi);
         this.heSoLuong = heSoLuong;
     }

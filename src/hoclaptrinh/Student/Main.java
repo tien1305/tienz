@@ -17,16 +17,15 @@ public class Main {
      * 
      * }
      */
-    /*
-     * public static void main(String[] args) { Student studentOne = new Student();
-     * // studentOne.setCode("2021"); // studentOne.setCode("s007"); //
-     * studentOne.setCode("bahk", 12345); studentOne.setCode(99);
-     * System.out.println("code:" + studentOne.getCode()); }
-     */
-    public static void main(String[] args) {
-
-        Student studentOne = new Student("tiến", "tre1234", 2345);
-        studentOne.showInfo();
-        st
+    
+      public static void main(String[] args) {
+           Student studentOne = new Student();
+      studentOne.setCode("2021"); 
+      studentOne.setCode("s007"); 
+      studentOne.setCode("bahk", 12345); 
+      studentOne.setCode(99);
+      System.out.println("code:" + studentOne.getCode()); }
+     
+    
     }
 }

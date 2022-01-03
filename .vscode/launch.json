@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.tienpd2008110294.kiemtracuoiky.Main",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "baitaplaptrinh.cuoiky.Main",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch testDrive",
+      "request": "launch",
+      "mainClass": "baitaplaptrinh.cuoiky.testDrive",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch hanghoaLinkedListTestDriver",
+      "request": "launch",
+      "mainClass": "baitaplaptrinh.cuoiky.hanghoaLinkedListTestDriver",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch qlHangHoa",
+      "request": "launch",
+      "mainClass": "com.tienpd2008110294.kiemtracuoiky.qlHangHoa",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch testquanly",
+      "request": "launch",
+      "mainClass": "com.tienpd2008110294.kiemtragiuaky.testquanly",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "tam.main",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "com.tienpd2008110294.kiemtracuoiky.test",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
       "name": "Launch Constructor",
       "request": "launch",
       "mainClass": "hoclaptrinh.Student.Constructor",
@@ -106,41 +162,6 @@
       "name": "Launch bai3",
       "request": "launch",
       "mainClass": "com.tienpd2008110294.lab1.bai3",
-      "projectName": "baitapLab_36b9549a"
-    },
-    {
-      "type": "java",
-      "name": "Launch bai4",
-      "request": "launch",
-      "mainClass": "com.tienpd2008110294.lab1.bai4",
-      "projectName": "baitapLab_36b9549a"
-    },
-    {
-      "type": "java",
-      "name": "Launch bai1(1)",
-      "request": "launch",
-      "mainClass": "com.tienpd2008110294.lab2.bai1",
-      "projectName": "baitapLab_36b9549a"
-    },
-    {
-      "type": "java",
-      "name": "Launch bai2(1)",
-      "request": "launch",
-      "mainClass": "com.tienpd2008110294.lab2.bai2",
-      "projectName": "baitapLab_36b9549a"
-    },
-    {
-      "type": "java",
-      "name": "Launch bai3(1)",
-      "request": "launch",
-      "mainClass": "com.tienpd2008110294.lab2.bai3",
-      "projectName": "baitapLab_36b9549a"
-    },
-    {
-      "type": "java",
-      "name": "Launch bai4(1)",
-      "request": "launch",
-      "mainClass": "com.tienpd2008110294.lab2.bai4",
       "projectName": "baitapLab_36b9549a"
     },
     {
