@@ -8,6 +8,7 @@ import java.text.ParseException;
 import java.util.Scanner;
 
 public class main {
+     // run bị lỗi//Dùng debug
     public static void main(String[] args) throws ParseException {
         int luachon =0;
         Scanner in = new Scanner(System.in);
