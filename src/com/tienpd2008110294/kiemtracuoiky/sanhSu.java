@@ -1,27 +1,21 @@
 ﻿/*
-* creted date: Dec 31, 2021
+* creted date: Dec 08, 2021
 * author: pdt
 */
 package com.tienpd2008110294.kiemtracuoiky;
 
-
-import java.text.DecimalFormat;
 import java.text.ParseException;
+import java.text.DecimalFormat;
 
-public class sanhSu extends HangHoa {
-
-
-    public sanhSu(String maHang, String tenHangHoa, long giaNhap, int soLuongTonKho, String ngayNhapKho )throws ParseException {
-        super("SS-"+maHang, tenHangHoa, giaNhap, soLuongTonKho, ngayNhapKho);
-    
+public class sanhSu extends hangHoa {
+    public sanhSu(String MaHH,String TenHH, long Gia, int soluong, String ngayNhapKho ) throws ParseException {
+        super("điện máy" + MaHH,TenHH,Gia,soluong, ngayNhapKho);  
     }
-   
-    DecimalFormat ft = new DecimalFormat("###,###,### VND");
+    DecimalFormat ft1 = new DecimalFormat("###,###,### VND");
     @Override
     public String toString() {
-        String s;
-        s = super.toString() + String.format("%-15s|",ft.format(tinhTien()));
-        return s;
+        String s ;
+        s = super.toString() + String.format("%-20s|",ft1.format(tongtien()));
+        return s ;
     }
-    
 }

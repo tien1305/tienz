@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "com.tienpd2008110294.cuoiky.main",
+      "projectName": "baitapLab_36b9549a"
+    },
+    {
+      "type": "java",
       "name": "Launch Main",
       "request": "launch",
       "mainClass": "com.tienpd2008110294.kiemtracuoiky.Main",
