@@ -11,8 +11,8 @@ import java.text.ParseException;
 public class sanhSu extends HangHoa {
 
 
-    public sanhSu(String maHang, String tenHangHoa, long giaNhap, int soLuongTonKho, String ngayNhapKho )throws ParseException {
-        super("SS-"+maHang, tenHangHoa, giaNhap, soLuongTonKho, ngayNhapKho);
+    public sanhSu(String maHH, String tenHH, long Gia, int soLuong, String ngayNhapKho )throws ParseException {
+        super("SS-"+maHH, tenHH, Gia, soLuong, ngayNhapKho);
     
     }
    

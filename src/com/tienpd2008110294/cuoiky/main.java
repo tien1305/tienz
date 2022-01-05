@@ -8,11 +8,11 @@ import java.text.ParseException;
 import java.util.Scanner;
 
 public class main {
-     // run bị lỗi//Dùng debug
+     
     public static void main(String[] args) throws ParseException {
         int luachon =0;
         Scanner in = new Scanner(System.in);
-        quanLi ql = new quanLi();
+        quanLy ql = new quanLy();
       //  (mã hàng hóa:tên hàng hóa:gia:số lượng:ngay nhập)
         HangHoa hh1 = new dienMay("110", "May Quat", 290000, 35, "13/12/2017");
         HangHoa hh2 = new dienMay("111", "Dieu Hoa", 9000000, 23, "10/11/2018");
@@ -91,9 +91,9 @@ public class main {
                 case 1: ql.themHangHoa();break;
                 case 2: ql.suaHangHoa();break;
                 case 3: ql.xoaHangHoa();break;
-                case 4: ql.timKiemTheoLoai();break;
-                case 5: ql.timKiemTheoGia();break;
-                case 6: ql.timKiemTheoNgay();break;
+                case 4: ql.timTheoLoai();break;
+                case 5: ql.timTheoGia();break;
+                case 6: ql.timTheoNgay();break;
                 case 7: ql.tangDanTheoNgay();break;
                 case 8: ql.giamDanTheoNgay();;break;
                 case 9: ql.tangDanTheoGia();break;

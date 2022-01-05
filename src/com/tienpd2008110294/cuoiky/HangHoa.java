@@ -10,42 +10,42 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public abstract class HangHoa {
-    private String maHang ;
-    private String tenHangHoa;
-    private long giaNhap;
-    private int soLuongTonKho;
+    private String maHH ;
+    private String tenHH;
+    private long Gia;
+    private int soLuong;
     private Date ngayNhapKho;
-    public HangHoa(String maHang , String tenHangHoa , long giaNhap , int soLuongTonKho , String ngayNhapKho) throws ParseException {
-        this.tenHangHoa = tenHangHoa ;
-        this.giaNhap = giaNhap ;
-        this.soLuongTonKho = soLuongTonKho;
-        this.maHang = maHang;
+    public HangHoa(String maHH , String tenHH , long Gia , int soLuong , String ngayNhapKho) throws ParseException {
+        this.tenHH = tenHH ;
+        this.Gia = Gia ;
+        this.soLuong = soLuong;
+        this.maHH = maHH;
         this.ngayNhapKho = chuyenChuoiSangNgay(ngayNhapKho);
         
     }
-    public void setMaHang(String maHang) {
-        this.maHang = maHang;
+    public void setmaHH(String maHH) {
+        this.maHH = maHH;
     }
-    public String getMaHang() {
-        return maHang;
+    public String getmaHH() {
+        return maHH;
     }
-    public void setTenHangHoa(String tenHangHoa) {
-        this.tenHangHoa = tenHangHoa;
+    public void setTenHH(String tenHH) {
+        this.tenHH = tenHH;
     } 
-    public String getTenHangHoa() {
-        return tenHangHoa;
+    public String getTenHH() {
+        return tenHH;
     }
-    public void setGiaNhap(long giaNhap) {
-        this.giaNhap = giaNhap;
+    public void setGia(long Gia) {
+        this.Gia = Gia;
     }
-    public long getGiaNhap() {
-        return giaNhap;
+    public long getGia() {
+        return Gia;
     }
-    public void setSoLuongTonKho(int soLuongTonKho) {
-        this.soLuongTonKho = soLuongTonKho;
+    public void setsoLuong(int soLuong) {
+        this.soLuong = soLuong;
     }
-    public int getSoLuongTonKho() {
-        return soLuongTonKho;
+    public int getsoLuong() {
+        return soLuong;
     }
     public void setNgayNhapKho(Date ngayNhapKho) {
         this.ngayNhapKho = ngayNhapKho;
@@ -73,12 +73,12 @@ public abstract class HangHoa {
 
     }
     public long tinhTien(){
-        return (long)(getSoLuongTonKho()*getGiaNhap());
+        return (long)(getsoLuong()*getGia());
     }
     DecimalFormat ft = new DecimalFormat("###,###,### VND");
     public String toString() {
 		String s = "";
-		s+=String.format("|%-8s|%-15s|%-10s|%-15s|%-15s|", getMaHang(),getTenHangHoa(),getSoLuongTonKho(), ft.format(getGiaNhap()),chuyenNgaySangChuoi(getNgayNhapKho()));
+		s+=String.format("|%-8s|%-15s|%-10s|%-15s|%-15s|", getmaHH(),getTenHH(),getsoLuong(), ft.format(getGia()),chuyenNgaySangChuoi(getNgayNhapKho()));
 		return s;
 	}
     

@@ -8,8 +8,8 @@ import java.text.DecimalFormat;
 import java.text.ParseException;
 
 public class thucPham extends HangHoa {
-    public thucPham(String maHang, String tenHangHoa, long giaNhap, int soLuongTonKho, String ngayNhapKho )throws ParseException {
-        super("TP-" + maHang, tenHangHoa, giaNhap, soLuongTonKho, ngayNhapKho);
+    public thucPham(String maHH, String tenHH, long Gia, int soLuong, String ngayNhapKho )throws ParseException {
+        super("TP-" + maHH, tenHH, Gia, soLuong, ngayNhapKho);
     }
     
     DecimalFormat ft = new DecimalFormat("###,###,### VND");
